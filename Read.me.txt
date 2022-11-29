@@ -1,0 +1,24 @@
+This repository contains the results of the Used Cars sales for Used Car dealerships Project. Its’s purpose is to give the reviewers access to the code. 
+
+# Overview
+This repository contains the technical for identifying the attributes that influence the prices of used cars. Mainly the most important attribute that increases the price of the used vehicle.  
+The project applies the CRISP-DM process to the problem of predicting car prices based on certain attributes of cars.
+
+# Files in the Repository
+The repository contains the following files/folders:
+- *data*: The data folder contains the file [Vehicles.csv]. Each row in that file contains the features of a car and its price. The column names are included in that file. 
+- *notebooks*: This folder contains the the Jupyter Notebook [*Used Cars.ipynb*] which contains the main analysis. The analysis in this notebook is structured according to the CRISP-DM process. Further, the *notebook* folder contains a html-version of *Used Cars.ipynb*.
+- *README*: This README.
+
+# Packages
+The following packages are necessary to run the cells in [*Used Cars.ipynb*]:
+- pandas
+- numpy
+- sklearn
+- matplotlib
+
+
+# How To Use It
+All code is in the Notebook [*Used Cars.ipynb*]. Please assure that all dependencies which are mentioned in the section Packages have been installed.  
+
+Further, the business questions as well as their answers are contained in *Used Cars Questions.ipynb* file.
